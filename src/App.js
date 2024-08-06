@@ -101,9 +101,9 @@ function MainArticle() {
         </Grid>
         <Grid className="empty-spacer" xs={9} md={8}>
         <footer>
-            <p>© 2024 Doctor Jeff's Real Human Legs. Several rights reserved.<br></br>
-            Website designed by Liam Roddy, who does not condone the buying and selling of legs.<br></br>
-            View source code on <a href="https://github.com/liamroddy/real-human-legs">Github</a>.</p>
+            <p>© 2024 Real Human Legs. Several rights reserved.
+            <br></br>Website designed by Liam Roddy, who does not condone the buying and selling of legs.
+            <br></br>View source code on <a href="https://github.com/liamroddy/real-human-legs">Github</a>.</p>
           </footer>
         </Grid>
       </Grid>
