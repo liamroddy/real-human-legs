@@ -7,10 +7,11 @@ import doctorLegsImage from './doctor_legs.png';
 import peopleInCircleDiscussingLegsImage from './people-in-circle-discussing-legs.jpg';
 import talkingToDoctorImage from './talking-to-doctor.jpg';
 import doctorJeffImage from './doctor-jeff.jpg';
+import surgeonOnBoatImage from './surgeon-on-boat.jpg';
 
 function ArticleSection({imageUri, imageAlt, sectionHeading, sectionText}) {
   return (
-    <Grid item xs={6} sm={4}>
+    <Grid item xs={6} xl={3}>
       <Card>
         <CardActionArea>
           <CardMedia
@@ -53,35 +54,44 @@ function MainArticle() {
           <Paper className='main-article-paper' >
             <Grid container spacing={3}>
               <ArticleSection 
-              sectionHeading="Need Legs?"
-              sectionText={<>
-                            <p>Do you have trouble reaching high shelves? Do you have two left feet, or none or at all? Or do you maybe just want a change of pace?</p>
-                            <p>Well you've come to the right site! </p>
-                            <p>Here at Doctor Jeff's Real Human Legs clinic we have available a wide range of new and pre-owned <a href="https://en.wikipedia.org/wiki/Leg">legs</a> in various lengths, colours and degrees of hairiness.</p>
-                          </>}
-              imageUri={peopleInCircleDiscussingLegsImage}
-              imageAlt="A group of people gathered in a circle, happily discussing legs."/>
+                sectionHeading="Need Legs?"
+                sectionText={<>
+                              <p>Do you have trouble reaching high shelves? Do you have two left feet, or none or at all? Or do you maybe just want a change of pace?</p>
+                              <p>Well you've come to the right site! </p>
+                              <p>Here at Doctor Jeff's Real Human Legs clinic we have available a wide range of new and pre-owned <a href="https://en.wikipedia.org/wiki/Leg">legs</a> in various lengths, colours and degrees of hairiness.</p>
+                            </>}
+                imageUri={peopleInCircleDiscussingLegsImage}
+                imageAlt="A group of people gathered in a circle, happily discussing legs."/>
 
               <ArticleSection
-              sectionHeading="Have Questions?"
-              sectionText={<>
-                            <p>People often ask:</p>
-                            <ul>
-                              <li>Is this legal?</li>
-                              <li>Is this ethical?</li>
-                              <li>Where are you getting these legs from?</li>
-                            </ul>
-                            <p>The answer to all these questions is <strong>YES!</strong></p></>}
-              imageUri={talkingToDoctorImage}
-              imageAlt={"A person talking to a doctor about their leg options."}/>
+                sectionHeading="Sounds Kinda Dodgy..."
+                sectionText={<>
+                              <p>People often ask us:</p>
+                              <ul>
+                                <li>Is this legal?</li>
+                                <li>Is this ethical?</li>
+                                <li>Where are you getting these legs from?</li>
+                              </ul>
+                              <p>The answer to all these questions is <strong>YES!</strong></p></>}
+                imageUri={talkingToDoctorImage}
+                imageAlt={"A person talking to a doctor about their leg options."}/>
 
               <ArticleSection
-              sectionHeading="Who is Doctor Jeff?"
-              sectionText={<>
-                            <p>Doctor Jeff is a medically aware person dedicated to getting you the best deal he can on legs!</p>                           
-                            <p>To show how dedicated he is to this noble task he even legally had his first name changed to Doctor!</p></>}
-              imageUri={doctorJeffImage}
-              imageAlt={"Doctor Jeff"}/>
+                sectionHeading="Who is Doctor Jeff?"
+                sectionText={<>
+                              <p>Doctor Jeff is a medically aware person dedicated to getting you the best deal he can on legs!</p>                           
+                              <p>To show how dedicated he is to this noble task he even legally had his first name changed to Doctor!</p></>}
+                imageUri={doctorJeffImage}
+                imageAlt={"Doctor Jeff"}/>
+
+              <ArticleSection
+                sectionHeading="Where are We Based?"
+                sectionText={<>
+                              <p>Our clinic is based right in the heart of Galway City.
+                              <br></br>Your surgery, meanwhile, will be performed in the heart of a small fishing vessel fifteen kilometres offshore.</p>                           
+                              <p>Our services are not recommended for patients with seafood allergies.</p></>}
+                imageUri={surgeonOnBoatImage}
+                imageAlt={"Doctor Jeff"}/>
             </Grid>
           </Paper>
         </Grid>
