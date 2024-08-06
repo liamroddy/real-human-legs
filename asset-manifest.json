@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e84a4b57.css",
-    "main.js": "/static/js/main.2ce4da84.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/media/doctor_top.png": "/static/media/doctor_top.fc1f66e02ba23938274d.png",
-    "static/media/talking-to-doctor.jpg": "/static/media/talking-to-doctor.f6325ce800dc85e019b5.jpg",
-    "static/media/surgeon-on-boat.jpg": "/static/media/surgeon-on-boat.e1d72420168fe3bde548.jpg",
-    "static/media/people-in-circle-discussing-legs.jpg": "/static/media/people-in-circle-discussing-legs.03b6a92966f2af23be40.jpg",
-    "static/media/doctor_legs.png": "/static/media/doctor_legs.55ace2201c0564a87f7f.png",
-    "static/media/doctor-jeff.jpg": "/static/media/doctor-jeff.6c677287a4bdada7bf21.jpg",
-    "index.html": "/index.html",
-    "main.e84a4b57.css.map": "/static/css/main.e84a4b57.css.map",
-    "main.2ce4da84.js.map": "/static/js/main.2ce4da84.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+    "main.css": "/real-human-legs/static/css/main.e84a4b57.css",
+    "main.js": "/real-human-legs/static/js/main.ee95412c.js",
+    "static/js/453.68693753.chunk.js": "/real-human-legs/static/js/453.68693753.chunk.js",
+    "static/media/doctor_top.png": "/real-human-legs/static/media/doctor_top.fc1f66e02ba23938274d.png",
+    "static/media/talking-to-doctor.jpg": "/real-human-legs/static/media/talking-to-doctor.f6325ce800dc85e019b5.jpg",
+    "static/media/surgeon-on-boat.jpg": "/real-human-legs/static/media/surgeon-on-boat.e1d72420168fe3bde548.jpg",
+    "static/media/people-in-circle-discussing-legs.jpg": "/real-human-legs/static/media/people-in-circle-discussing-legs.03b6a92966f2af23be40.jpg",
+    "static/media/doctor_legs.png": "/real-human-legs/static/media/doctor_legs.55ace2201c0564a87f7f.png",
+    "static/media/doctor-jeff.jpg": "/real-human-legs/static/media/doctor-jeff.6c677287a4bdada7bf21.jpg",
+    "index.html": "/real-human-legs/index.html",
+    "main.e84a4b57.css.map": "/real-human-legs/static/css/main.e84a4b57.css.map",
+    "main.ee95412c.js.map": "/real-human-legs/static/js/main.ee95412c.js.map",
+    "453.68693753.chunk.js.map": "/real-human-legs/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e84a4b57.css",
-    "static/js/main.2ce4da84.js"
+    "static/js/main.ee95412c.js"
   ]
 }
