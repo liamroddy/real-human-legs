@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, lightblue, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.doctor-top-container {
+  display: flex;
+  align-items: flex-end; /* aligns children at the bottom */
+}
+
+img.doctor-top-image, img.doctor-legs-image {
+  max-width: 100%;
+  float: right;
+}
+
+.main-article-paper {
+  margin: 0;
+  padding: 20px;
+}
+
+.top-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  font-size: 1.1em;
+  font-style: italic;
+  color: #333;
+  text-align: center;
+  margin: auto 1em;
+
+  h1, p {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .quote-signature {
+    font-size: 0.8em;
+    font-style: normal;
+    color: #666;
+    text-align: right;
+  }
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.icon-container svg {
+  /* we have to use !important because React icons uses inline styling */
+  width: 80% !important;
+  height: 80% !important;
+  color: cornflowerblue;
+}
+
+footer {
+  text-align: center;
+  font-size: 80%;
+  font-style: italic;
+  color: #666;
+}
